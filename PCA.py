@@ -11,7 +11,7 @@ import numpy as np
 
 # ПАРАМЕТРИ ЩО ШЕПОЧУТЬ МЕНІ В ТЕМРЯВІ
 MAX_WORDS_PER_AUTHOR = 10000  # ВОНИ СКАЗАЛИ ЗУПИНИТИСЯ НА 10000
-TEXT_DIR = r"D:\Soft\PyCharm Projects\Квантитативна Лангустика\Параметризація\Лабораторна №4"  # МІСЦЕ ДЕ ЖИВУТЬ СЛОВА
+TEXT_DIR = r"TEXT"  # МІСЦЕ ДЕ ЖИВУТЬ СЛОВА? ДИРЕКТОРІЯ
 OUTPUT_DIR = "results"  # ПАПКА-СХОВИЩЕ ДЛЯ РЕЗУЛЬТАТІВ
 os.makedirs(OUTPUT_DIR, exist_ok=True)  # СТВОРЮЄМО СХОВИЩЕ ЯКЩО ЙОГО НЕМАЄ
 
